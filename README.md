@@ -6,7 +6,4 @@ So Yeah, I Started this repo when i was 16 years Old in 2022, i don't know what 
 Every Project Related To Web Programming & Development I'll put it here, whatever it is.
 
 And Finally I'll Try To Not Edit This.
-<pre>
-Edit: I Can't Try to Not Edit This But I'll Try Harder HAHAHAHA
-      I Mean Everything Every Project Finished, Unfinished Or Canceled Will Be Here...
-</pre>
+
