@@ -1,5 +1,5 @@
 *{
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -26,7 +26,6 @@ body{
 
 }
 .h-navbar{
-    background-color: rgba(75, 214, 191, 0.137);
     display: inline-block;
     background-color: rgb(214, 214, 214);
     position: fixed;
@@ -90,7 +89,7 @@ body{
     border-radius: 30px;
     background-color: rgba(0, 110, 255, 0);
     padding: 10px;
-    height: 110vh;
+    height: 120vh;
     animation-name: fade;
     animation-delay: 1s;
     animation-duration: 1s;
@@ -103,6 +102,28 @@ body{
         background-color: rgba(255, 255, 255, 0.308);
     }
 }
+@keyframes tableanim {
+    0%{
+        border-color: rgb(0, 81, 255);
+    }
+    50%{
+        border-color: red;
+    }
+    100%{
+        border-color: rgb(60, 255, 0);
+    }
+}
+@keyframes contactanim {
+    0%{
+        border-color: red
+    }
+    50%{
+        border-color: rgb(0, 81, 255);
+    }
+    100%{
+        border-color: rgb(60, 255, 0);
+    }
+}
 .content #whoami h1{
     font-family: cursive;
 }
@@ -110,7 +131,7 @@ body{
     margin-left: 129px;
     background-color: white;
     color:rgb(0, 23, 151);
-    width: 90%;
+    width: 91%;
     height: 200vh;
     text-align: center;
 }
@@ -128,5 +149,96 @@ body{
 }
 .content .card:hover{
     transform: scale(1.07);
-
+}
+.workingon{
+    color: rgb(26, 29, 243);
+    width: 90%;
+    height: 100vh;
+    background-image: linear-gradient(white, rgb(118, 190, 214));
+    margin-left: 128px;
+    text-align: center;
+}
+.futuregoals{
+    height: 150vh;
+    width: 89%;
+    margin-left: 129px;
+    text-align: center;
+}
+.futuregoals table{
+    margin: 100px 0px 0px 360px;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 7px;
+    animation-name: tableanim;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+.futuregoals th{
+    color: rgb(0, 81, 255);
+    padding: 30px;
+}
+.futuregoals td{
+    padding: 10px;
+    font-weight: bolder;
+}
+cite{
+    display: inline-block;
+    font-size: 20px;
+    margin: 100px;
+}
+.contactme{
+    padding-top: 200px;
+    padding-bottom: 70vh;
+    text-align: center;
+}
+.contact{
+    border-style: solid;
+    width: 100vh;
+    margin-left: 55vh;
+    padding: 10px;
+    height: 50vh;
+    animation-name: contactanim;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    background-color: rgba(58, 199, 192, 0.164);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+.contact:hover{
+    backdrop-filter: grayscale(100%);
+    background-color: rgba(255, 255, 255, 0);
+    transform: scale(1.1);
+}
+i{
+    font-size: 50px;
+    transition: all 0.5s ease;
+}
+i:hover{
+    transform: rotate(10deg) scale(1.3);
+}
+.fa-whatsapp{
+    color: rgb(0, 255, 0);
+}
+.fa-telegram{
+    color: rgb(40, 108, 253);
+}
+.fa-instagram{
+    color: rgb(215, 45, 221);
+}
+.fa-twitter{
+    color: rgb(0, 102, 255);
+}
+.fa-github{
+    color: rgb(0, 0, 0);
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
 }
