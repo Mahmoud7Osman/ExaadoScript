@@ -1,0 +1,51 @@
+/* Microsoft Windows UI Original Buttons */
+
+buttonarea {
+    position: absolute;
+    bottom: 0;
+
+    user-select: none;
+
+    width: 100%;
+    height: 32px;
+    background-color: rgb(240, 240, 240);
+
+    padding: 10px 0px 0px 0px;
+}
+
+buttons {
+    display: block;
+    position: absolute;
+
+    right: 10px;
+
+}
+
+button {
+    background-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(185, 185, 185);
+    width: 75px;
+    padding: 3px;
+    margin: 0 5px 0 0;
+    font-size: 11px;
+    transition: 0.4s;
+}
+button:hover{
+    border-color: rgb(0, 133, 221);
+    background-color: rgb(219, 246, 255);
+}
+button:active{
+    transition: 0s;
+    border-width: 1px;
+    border-color: rgb(0, 96, 160);
+    background-color: rgb(193, 224, 235);
+}
+
+
+/* Microsoft Windows UI Sections */
+fieldset{
+    border-width: 1px;
+    margin: 10px 20px 5px 20px;
+}
