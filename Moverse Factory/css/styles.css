@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+i{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 183, 255);
+    transition: 0.3s;
+}
+i:hover{
+    transform: scale(1.5) rotate(360deg);
+}
+.navigation{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(175, 236, 255);
+    justify-content: space-between;
+    user-select: none;
+    z-index: 100;
+    padding: 0;
+}
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+}
+.navigation li{
+    display: inline-block;
+}
+
+.navigation a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    color: blue;
+    padding: 12px;
+    transition: 0.3s;
+}
+.navigation a:hover{
+    color: rgb(255, 255, 255);
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    padding-top: 50px;
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+
+    overflow: hidden;
+    animation-name: intro;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 0;
+}
+.logo{
+    padding: 100px 0px 0px 100px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+.name{
+    display: inline-block;
+    margin: 0;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to right, rgb(94, 196, 255), rgb(0, 60, 255), lightblue);
+    -webkit-background-clip: text;
+    color: transparent;
+    user-select: none;
+}
+.description{
+    display: inline-block;
+    margin: 0;
+    width: 500px;
+    color: rgb(35, 164, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#startbtn{
+    padding: 20px;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, rgb(0, 191, 255), rgb(248, 248, 248));
+    color: rgb(0, 75, 88);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(74, 210, 255);
+    background-image: url("/images/backgruond2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+.card{
+    user-select: none;
+    background-color: rgba(197, 211, 255, 0.356);
+    backdrop-filter: blur(5px);
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    transition: 0.6s ease ;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    width: 100%;
+    height: 40%;
+}
+.card h1{
+    color: blue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card h1::after{
+    display: block;
+    margin: 20px 0 30px 0;
+    width: 100%;
+    content: '';
+    background-color: black;
+    height: 1px;
+}
+.card p{
+    color: transparent;
+    background-image: linear-gradient(blue, purple);
+    -webkit-background-clip: text;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+#ourproducts{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(50, 180, 255);
+}
+#products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products h1{
+    color: white;
+    padding-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.products p{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 100px;
+    padding: 20px;
+    width: 1000px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+}
+.products a{
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+
+    border-style: solid;
+    border-width: 1px;
+    transition: 0.5s ease;
+}
+.products a:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 162, 255);
+}
+.ft{
+    height: 100vh;
+    width: 100%;
+    
+    background-image: linear-gradient(to top right, white, rgb(0, 191, 255));
+}
+.contactus{
+    display: flex;
+    background-color: rgb(0, 191, 255);
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 31%;
+    padding: 10px;
+    transition: 0.3s;
+}
+.contactus:hover{
+    transform: scale(1.1);
+}
+.contactus i{
+    color: rgb(231, 233, 255);
+    text-decoration: none;
+    font-size: 70px;
+    margin: 20px;
+}
+/*
+.product{
+    user-select: none;
+    background-color: rgb(197, 211, 255);
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    transition: 0.6s ease ;
+}
+.product h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product h1::after{
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    display: block;
+    content: '';
+    margin: 10px 0px 10px 0px;
+}
+*/
+#startbtn:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+@keyframes intro {
+    to{
+        color: rgb(255, 0, 0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
