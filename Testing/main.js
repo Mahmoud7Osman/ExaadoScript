@@ -1,5 +1,5 @@
-let x="Hello Mother Fucker".replace("Fucker","And Father");
-process.stdout.write("asdasdlogkwewieg");
-x
-process.stdout.clearLine();
-process.stdout.write("asd");
+try{   
+    throw new Error("Kes emak");
+} catch (zabr) {
+    ;
+}
