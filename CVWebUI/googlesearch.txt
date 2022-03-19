@@ -1,0 +1,1 @@
+These things are usually just “nice-not-to-have”s, but for malware authors, they directly hurt the campaign's bottom line. This contributes to somewhat of a monoculture in the malware landscape. A great majority of notable malware is written in C language, or at best C++
