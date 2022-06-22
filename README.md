@@ -8,5 +8,5 @@ Every Project Related To Web Programming & Development I'll put it right here, w
 And Finally I'll Try To keep this repo posted without deleting or improving anything just to demonstrate that it just take time (years).
 
 
-<h2>Don't Be That Guy....</h2>
-<p>Some Peoples Asks God To help them, then God Answer Them The Solution, Do you know what they do, they ignore that solution and Ask God Again To Help Them !</p>
+# I Can't
+I Can't Keep this readme alone without touching it, i just wanna say i left front end web dev, i'm focusing on the backend
